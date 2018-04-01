@@ -2,11 +2,11 @@ controller_frequency: 15.0
 TrajectoryPlannerROS:
   prune_plan: true
   max_vel_x: 0.3
-  min_vel_x: 0.01
-  max_vel_theta: 1.5
-  min_in_place_vel_theta: 0.01
+  min_vel_x: 0.03
+  max_vel_theta: 2.0
+  min_in_place_vel_theta: 0.05
 
-  acc_lim_theta: 1
+  acc_lim_theta: 1.5
   acc_lim_x: 0.2
   acc_lim_y: 0.5
 

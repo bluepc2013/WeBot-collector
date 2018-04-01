@@ -102,4 +102,12 @@
     </sensor>
   </gazebo>
 
+  <gazebo>
+    <plugin name="ground_truth" filename="libgazebo_ros_p3d.so">
+      <frameName>map</frameName>
+      <bodyName>Localization</bodyName>
+      <topicName>local_odom</topicName>
+      <updateRate>0.5</updateRate>
+    </plugin>
+  </gazebo>
 </robot>
